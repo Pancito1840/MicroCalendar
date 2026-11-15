@@ -29,7 +29,7 @@ class ExamService:
             return exam_repository.get_by_date(date)
         return exam_repository.get_all()
 
-    def get_exam_id(self, exam_id: int) -> Optional[dict]:
+    def get_exam_by_id(self, exam_id: int) -> Optional[dict]:
         """
         Busca un examen por su ID. Retorna None si no existe.
         """
