@@ -1,0 +1,23 @@
+# Entornos virtuales
+microservicio/
+.venv/
+env/
+venv/
+
+# Caché y archivos temporales de Python / Pytest
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Control de versiones e IDEs
+.git/
+.gitignore
+.vscode/
+.idea/
+
+# Documentación y archivos locales
+README.md
+.env
